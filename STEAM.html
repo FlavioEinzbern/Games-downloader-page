@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Steam Fixes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style> 
+    body {
+  padding-top: 50px;
+}
+    .navbar .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      opacity: 1;
+    }
+
+    .dropdown-menu {
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .dropdown-menu-end {
+      right: 0;
+      left: auto;
+    }
+
+    .navbar .dropdown:hover .dropdown-menu-end {
+      display: block;
+      right: 0;
+      left: auto;
+    }
+
+    .hover-img {
+    display: none;
+    }
+
+    .game-card:hover .default-img {
+    display: none;
+    }
+
+    .game-card:hover .hover-img {
+    display: block;
+    }
+  </style>
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Games</a>
+          
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <!--<li class="nav-item active"><a href="PC.html" class="nav-link active" href="#">PC</a></li>-->
+            
+        
+            <!-- Dropdown: PC -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="PC" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PC
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
+                <li><a class="dropdown-item" href="PC.html">Windows</a></li>
+                <li><a class="dropdown-item active" href="STEAM.html">Steam Fixes</a></li>
+              </ul>
+            </li>
+
+            <!-- Dropdown: Sony -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="Sony" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sony
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
+                <li><a class="dropdown-item" href="PS1.html">PS1</a></li>
+                <li><a class="dropdown-item" href="PS2.html">PS2</a></li>
+                <li><a class="dropdown-item" href="PS3.html">PS3</a></li>
+                <li><a class="dropdown-item" href="PSP.html">PSP</a></li>
+              </ul>
+            </li>
+            
+            <!-- Dropdown: (left) -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="Nintendo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nintendo
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuNintendo">
+                <li><a class="dropdown-item" href="NES.html">Nes</a></li>
+                <li><a class="dropdown-item" href="SNES.html">Snes</a></li>
+                <li><a class="dropdown-item" href="N64.html">N64</a></li>
+                <li><a class="dropdown-item" href="GB.html">Gameboy</a></li>
+                <li><a class="dropdown-item" href="Dolphin.html">Gamecube/Wii</a></li>
+                <li><a class="dropdown-item" href="WiiU.html">WiiU</a></li>
+                <li><a class="dropdown-item" href="Switch.html">Switch</a></li>
+              </ul>
+            </li>
+
+            <!-- Dropdown: (left last) -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="Sega" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sega
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuSega">
+                <li><a class="dropdown-item" href="MS.html">Master System</a></li>
+                <li><a class="dropdown-item" href="GEN.html">Mega Drive</a></li>
+                <li><a class="dropdown-item" href="SATURN.html">Saturn</a></li>
+                <li><a class="dropdown-item" href="DC.html">Dreamcast</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <section class="mb-5">
+      <h1 class="text-center mb-4"><img src="Assets/steam a.png"> <span class="badge bg-primary"></span></h1>
+      
+      
+
+    <section>
+      <div class="row g-4">
+        
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/1552550.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Castlevania Advance Collection</h5>
+              <p class="card-text">Alternate and translated Roms</p>
+              <a href="https://drive.usercontent.google.com/download?id=11k_jtIcQIHPZKkscA8PnlJCzxBDTCoWw&export=download&authuser=0" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm game-card">
+            <img src="covers/steam/12100.jpg" 
+                class="card-img-top default-img" 
+                alt="Tekken 8">
+            <img src="covers/steam/12110.jpg" 
+                class="card-img-top hover-img" 
+                alt="Tekken 8 hover">
+            <div class="card-body">
+              <h5 class="card-title">Grand Theft Auto 3 / Vice City</h5>
+              <p class="card-text">Game fixes</p>
+              <a href="https://drive.google.com/file/d/126KzDLYP-Qc0KQh_1RvrNVSlYjoHi21o/view" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/12120.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Grand Theft Auto San Andreas</h5>
+              <p class="card-text">Game fixes</p>
+              <a href="https://drive.google.com/file/d/127VndLCvV0Iz4CJDgagKQnhkpOJ_Jl-S/view" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/12210.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Grand Theft Auto 4</h5>
+              <p class="card-text">Game fixes</p>
+              <a href="https://drive.usercontent.google.com/download?id=126l9KuvtmIyLwPDB4aQPPsDdIZ1KTaVw&export=download&authuser=0" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/12140.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Max Payne</h5>
+              <p class="card-text">Game fixes</p>
+              <a href="https://drive.google.com/file/d/1L4rqc-Q_rNpgJa4aia6pjqVZBVZnJz-3/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/12150.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Max Payne 2</h5>
+              <p class="card-text">Game fixes</p>
+              <a href="https://drive.google.com/file/d/1TNLZkuip66jTNMz_0dCjBwczunyMAij1/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+              <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2127853426" target="_blank" class="btn btn-primary">Steam</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/264380.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Narcissu 1-2</h5>
+              <p class="card-text">Translation</p>
+              <a href="https://drive.google.com/file/d/12BqnuZkTtqqYNuXQuvdlBW-I36aK-PHt/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/495140.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Naruto Shippuden Ultimate Ninja Storm</h5>
+              <p class="card-text">PS3 Buttons</p>
+              <a href="https://drive.google.com/file/d/1KrLQsUWIrCoUGhgfLoeUeoqFGAJj0Jdo/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/543870.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Naruto Shippuden Ultimate Ninja Storm 2</h5>
+              <p class="card-text">PS3 Buttons</p>
+              <a href="https://drive.google.com/file/d/1Ks7BgygUxVYRbJvQ4p15gofyVMkh--Hx/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/234670.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Naruto Shippuden Ultimate Ninja Storm 3</h5>
+              <p class="card-text">PS3 Buttons</p>
+              <a href="https://drive.google.com/file/d/1KrW4-TW_VDlxmU6Kg7EDU1ZDPWBN-lyp/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/996470.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Pro Evolution Soccer 2020</h5>
+              <p class="card-text">Unlocker</p>
+              <a href="https://drive.usercontent.google.com/download?id=1KFahHcV4kiim1D3pJmJ60vmffQnL9wyY&export=download&authuser=0" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/1259970.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Pro Evolution Soccer 2021</h5>
+              <p class="card-text">Unlocker</p>
+              <a href="https://drive.usercontent.google.com/download?id=1K4JpRmQj5Ftm1O6PLyQHB8nwjjowja_L&export=download&authuser=0" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/254700.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Resident Evil 4</h5>
+              <p class="card-text">HD Project</p>
+              <a href="magnet:?xt=urn:btih:7AAB24B40C6C5E02331A68A85C0E4C36BC354F8B&dn=HDProject1.1-Installer" class="btn btn-primary">Torrent</a>
+              <a href="https://re4hd.com/#instructions" target="_blank" class="btn btn-primary">Site</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/222480.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Resident Evil Revelations</h5>
+              <p class="card-text">PS3 Buttons</p>
+              <a href="https://drive.google.com/file/d/12EaAtscaBU2qC93_dGqiOrAtn9eVjP1c/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/1794960.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Sonic Origins</h5>
+              <p class="card-text">Original Soundtrack</p>
+              <a href="https://drive.google.com/file/d/1A3OLHSX5A8DBvIcv89G0D6nbavXn2T3t/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+                
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm game-card">
+            <img src="covers/steam/1817070.jpg" 
+                class="card-img-top default-img" 
+                alt="Tekken 8">
+            <img src="covers/steam/1817190.jpg" 
+                class="card-img-top hover-img" 
+                alt="Tekken 8 hover">
+            <div class="card-body">
+              <h5 class="card-title">Spider-Man</h5>
+              <p class="card-text">John Bubniak's Return</p>
+              <a href="https://drive.google.com/file/d/1sdyq69G_SlNVEa_dCI2Gg1l35_Utznea/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/389730.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Tekken 7</h5>
+              <p class="card-text">Storage Saver</p>
+              <a href="https://drive.google.com/file/d/1KpbHCIY20tIEuflJBsdHVFo4mEZaZ0Xu/view?usp=drive_link" target="_blank" class="btn btn-primary">-30GB</a>
+              <a href="https://drive.google.com/file/d/1KqqjOhW08S0ybggQCPpyVi2OUTSMPX5P/view?usp=drive_link" target="_blank" class="btn btn-primary"> No Videos</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/steam/1778820.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Tekken 8</h5>
+              <p class="card-text">Storage Saver</p>
+              <a href="https://drive.google.com/file/d/1fR3Far5IyAF5FJcF5WSQedCRaSvICax0/view?usp=drive_link" target="_blank" class="btn btn-primary">Zip</a>
+            </div>
+          </div>
+        </article>
+        
+
+        
+        
+    </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light text-center p-3 mt-5">
+    <p class="mb-0">&copy; 2025 - My first frontend project</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

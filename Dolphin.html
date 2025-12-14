@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Switch Games</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style> 
+    body {
+  padding-top: 50px;
+}
+    .navbar .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      opacity: 1;
+    }
+
+    .dropdown-menu {
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .dropdown-menu-end {
+      right: 0;
+      left: auto;
+    }
+
+    .navbar .dropdown:hover .dropdown-menu-end {
+      display: block;
+      right: 0;
+      left: auto;
+    }
+  </style>
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Games</a>
+          
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <!--<li class="nav-item active"><a href="PC.html" class="nav-link active" href="#">PC</a></li>-->
+            
+        
+            <!-- Dropdown: PC -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="PC" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PC
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
+                <li><a class="dropdown-item" href="PC.html">Windows</a></li>
+                <li><a class="dropdown-item" href="STEAM.html">Steam Fixes</a></li>
+              </ul>
+            </li>
+
+            
+            <!-- Dropdown: Sony -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="Sony" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sony
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
+                <li><a class="dropdown-item" href="PS1.html">PS1</a></li>
+                <li><a class="dropdown-item" href="PS2.html">PS2</a></li>
+                <li><a class="dropdown-item" href="PS3.html">PS3</a></li>
+                <li><a class="dropdown-item" href="PSP.html">PSP</a></li>
+              </ul>
+            </li>
+            
+            <!-- Dropdown: (left) -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="Nintendo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nintendo
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuNintendo">
+                <li><a class="dropdown-item" href="NES.html">Nes</a></li>
+                <li><a class="dropdown-item" href="SNES.html">Snes</a></li>
+                <li><a class="dropdown-item" href="N64.html">N64</a></li>
+                <li><a class="dropdown-item" href="GB.html">Gameboy</a></li>
+                <li><a class="dropdown-item active" href="Dolphin.html">Gamecube/Wii</a></li>
+                <li><a class="dropdown-item" href="WiiU.html">WiiU</a></li>
+                <li><a class="dropdown-item" href="Switch.html">Switch</a></li>
+              </ul>
+            </li>
+
+            <!-- Dropdown: (left last) -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="Sega" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sega
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuSega">
+                <li><a class="dropdown-item" href="MS.html">Master System</a></li>
+                <li><a class="dropdown-item" href="GEN.html">Mega Drive</a></li>
+                <li><a class="dropdown-item" href="SATURN.html">Saturn</a></li>
+                <li><a class="dropdown-item" href="DC.html">Dreamcast</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <section class="mb-5">
+      <h1 class="text-center mb-4"><img src="Assets/dolphin a.png"> <span class="badge bg-primary"></span></h1>
+      
+      
+
+    <section>
+      <div class="row g-4">
+        
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Altered Beast.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Altered Beast</h5>
+              <p class="card-text">15,1 MB</p>
+              <a href="https://drive.google.com/file/d/1n9Ayy42WsrQ3s1fmZ9noCRURoGMkMD4x/view?usp=drive_link" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Castlevania Rondo of Blood.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Castlevania Rondo of Blood</h5>
+              <p class="card-text">43,1 MB</p>
+              <a href="https://drive.google.com/file/d/1xwt92WQCJen9ui96-M3Bs3oOjez_40wm/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Castlevania The Adventure ReBirth.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Castlevania The Adventure ReBirth</h5>
+              <p class="card-text">35,2 MB</p>
+              <a href="https://drive.google.com/file/d/1oa3XUFNBGUF3sVAvC0kirzyqaW4LNcG7/view?usp=drive_link" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Dragon Ball Z Budokai Tenkaichi 3.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Dragon Ball Z Budokai Tenkaichi 3</h5>
+              <p class="card-text">3,12 GB</p>
+              <a href="https://drive.usercontent.google.com/download?id=1H3UtkeLBrDPrR17S45bV49AVkrq1gLDs&export=download&authuser=0" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Mario Kart 64.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Mario Kart 64</h5>
+              <p class="card-text">24,4 MB</p>
+              <a href="https://drive.google.com/file/d/1TEJM_UNa_Kzi2ll4-sYGzvZybEMcc2gB/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Mario Kart Double Dash.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Mario Kart Double Dash</h5>
+              <p class="card-text">1,36 GB</p>
+              <a href="https://drive.usercontent.google.com/download?id=1f4ySdOcNcb7ck6q9NIzk2pJScR-Ng9Go&export=download&authuser=0" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Mario Kart Wii.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Mario Kart Wii</h5>
+              <p class="card-text">2,59 GB</p>
+              <a href="https://drive.usercontent.google.com/download?id=1GeB5Ju07Q4CUA-gRHbSf9vYT1AAijTmo&export=download&authuser=0" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Mario Party 2.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Mario Party 2</h5>
+              <p class="card-text">42,7 MB</p>
+              <a href="https://drive.google.com/file/d/1VObTQI4XDavYJAt_YvzCTmMsTmGl81DG/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Mario Tennis.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Mario Tennis</h5>
+              <p class="card-text">36,7 MB</p>
+              <a href="https://drive.google.com/file/d/1K6Jkf2Q5jOD9A_6wWkRzkoQlI2N7XnQj/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Mii.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Mii Channel</h5>
+              <p class="card-text">7,8 MB</p>
+              <a href="https://drive.google.com/file/d/1ZlKO--LvLK6mweOBQ0Qf87nMxelnex9t/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/New Super Mario Bros. Wii.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">New Super Mario Bros. Wii</h5>
+              <p class="card-text">558,1 MB</p>
+              <a href="https://drive.usercontent.google.com/download?id=1Gc2WYdHf0LzLtcxV2ciz0cF5fNrvKapg&export=download&authuser=0" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Shinobi.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Shinobi</h5>
+              <p class="card-text">14,4 MB</p>
+              <a href="https://drive.google.com/file/d/1tFTKeSNd5ronmDEYG7L0gxbiMc-blZQc/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Sonic 8bit.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Sonic the Hedgehog 8bit</h5>
+              <p class="card-text">11,8 MB</p>
+              <a href="https://drive.google.com/file/d/195rq22Mi0W9XXFrnq8UcMeYi_1rzDbXA/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Sonic 2 8bit.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Sonic the Hedgehog 2 8bit</h5>
+              <p class="card-text">11,7 MB</p>
+              <a href="https://drive.google.com/file/d/1RYu43tjyYFkABNOal4Dx-CRDDeb2pCfX/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Super Mario 64.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Super Mario 64</h5>
+              <p class="card-text">20,3 MB</p>
+              <a href="https://drive.google.com/file/d/1owAhzURun5Hda1EnVc8YP_n02y8xTtoR/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Super Mario Galaxy.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Super Mario Galaxy</h5>
+              <p class="card-text">3,16 GB</p>
+              <a href="https://drive.usercontent.google.com/download?id=1j-B7tEakJSUrWpGxsb2in1FaSt6eI11s&export=download&authuser=0" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Super Mario Galaxy 2.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Super Mario Galaxy 2</h5>
+              <p class="card-text">1,25 GB</p>
+              <a href="https://drive.usercontent.google.com/download?id=1gsSs9VlTbagoAtOfbrHpGEqZvcCF0xaj&export=download&authuser=0" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Super Smash Bros..jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Super Smash Bros.</h5>
+              <p class="card-text">24,8 MB</p>
+              <a href="https://drive.google.com/file/d/1M-TkAudkPz9CnVu9Aofn4fmlGeR2fF5T/view" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-2">
+          <div class="card h-100 shadow-sm">
+            <img src="covers/dolphin/Super Smash Bros. Melee.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Super Smash Bros. Melee</h5>
+              <p class="card-text">1,36 GB</p>
+              <a href="https://drive.usercontent.google.com/download?id=1asnUY1kHNFRv0AHmsqqELgzU960E8ck5&export=download&authuser=0" target="_blank" class="btn btn-primary">XCI</a>
+            </div>
+          </div>
+        </article>
+
+        
+    </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light text-center p-3 mt-5">
+    <p class="mb-0">&copy; 2025 - My first frontend project</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
