@@ -1,0 +1,36 @@
+body {
+  padding-top: 50px;
+}
+    .navbar .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      opacity: 1;
+    }
+
+    .dropdown-menu {
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .dropdown-menu-end {
+      right: 0;
+      left: auto;
+    }
+
+    .navbar .dropdown:hover .dropdown-menu-end {
+      display: block;
+      right: 0;
+      left: auto;
+    }
+
+    .hover-img {
+    display: none;
+    }
+
+    .game-card:hover .default-img {
+    display: none;
+    }
+
+    .game-card:hover .hover-img {
+    display: block;
+    }
