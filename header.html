@@ -1,71 +1,62 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">My Games</a>
-          
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-           <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">My Games</a>
 
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav ms-auto">
-            <!--<li class="nav-item active"><a href="PC.html" class="nav-link active" href="#">PC</a></li>-->
-            
-            <!-- Dropdown: PC -->
-            <li class="nav-item dropdown" data-menu="pc">
-              <a class="nav-link dropdown-toggle active" href="#" id="PC" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                PC
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
-                <li><a class="dropdown-item" href="PC.html" data-page="pc-windows">Windows</a></li>
-                <li><a class="dropdown-item" href="STEAM.html" data-page="pc-steam">Steam Fixes</a></li>
-              </ul>
-            </li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- Dropdown: Sony -->
-            <li class="nav-item dropdown" data-menu="sony">
-              <a class="nav-link dropdown-toggle" href="#" id="Sony" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Sony
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
-                <li><a class="dropdown-item" href="PS1.html" data-page="ps1">PS1</a></li>
-                <li><a class="dropdown-item" href="PS2.html" data-page="ps2">PS2</a></li>
-                <li><a class="dropdown-item" href="PS3.html" data-page="ps3">PS3</a></li>
-                <li><a class="dropdown-item" href="PSP.html" data-page="psp">PSP</a></li>
-              </ul>
-            </li>
-            
-            <!-- Dropdown: (left) -->
-            <li class="nav-item dropdown" data-menu="nintendo">
-              <a class="nav-link dropdown-toggle" href="#" id="Nintendo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Nintendo
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuNintendo">
-                <li><a class="dropdown-item" href="NES.html" data-page="nes">NES</a></li>
-                <li><a class="dropdown-item" href="SNES.html" data-page="snes">SNES</a></li>
-                <li><a class="dropdown-item" href="N64.html" data-page="n64">N64</a></li>
-                <li><a class="dropdown-item" href="GB.html" data-page="gb">Gameboy</a></li>
-                <li><a class="dropdown-item" href="Dolphin.html" data-page="wii">Gamecube/Wii</a></li>
-                <li><a class="dropdown-item" href="WiiU.html" data-page="wiiu">WiiU</a></li>
-                <li><a class="dropdown-item" href="Switch.html" data-page="switch">Switch</a></li>
-              </ul>
-            </li>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
 
-            <!-- Dropdown: (left last) -->
-            <li class="nav-item dropdown" data-menu="sega">
-              <a class="nav-link dropdown-toggle" href="#" id="Sega" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Sega
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuSega">
-                <li><a class="dropdown-item" href="MS.html" data-page="ms">Master System</a></li>
-                <li><a class="dropdown-item" href="GEN.html" data-page="gen">Mega Drive</a></li>
-                <li><a class="dropdown-item" href="SATURN.html" data-page="saturn">Saturn</a></li>
-                <li><a class="dropdown-item" href="DC.html" data-page="dc">Dreamcast</a></li>
-              </ul>
-            </li>
+          <!-- PC -->
+          <li class="nav-item dropdown" data-menu="pc">
+            <a class="nav-link dropdown-toggle" href="#">PC</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="PC.html" data-page="pc-windows">Windows</a></li>
+              <li><a class="dropdown-item" href="STEAM.html" data-page="pc-steam">Steam Fixes</a></li>
+            </ul>
+          </li>
 
-          </ul>
-        </div>
+          <!-- Sony -->
+          <li class="nav-item dropdown" data-menu="sony">
+            <a class="nav-link dropdown-toggle" href="#">Sony</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="PS1.html" data-page="ps1">PS1</a></li>
+              <li><a class="dropdown-item" href="PS2.html" data-page="ps2">PS2</a></li>
+              <li><a class="dropdown-item" href="PS3.html" data-page="ps3">PS3</a></li>
+              <li><a class="dropdown-item" href="PSP.html" data-page="psp">PSP</a></li>
+            </ul>
+          </li>
+
+          <!-- Nintendo -->
+          <li class="nav-item dropdown" data-menu="nintendo">
+            <a class="nav-link dropdown-toggle" href="#">Nintendo</a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+              <li><a class="dropdown-item" href="NES.html" data-page="nes">NES</a></li>
+              <li><a class="dropdown-item" href="SNES.html" data-page="snes">SNES</a></li>
+              <li><a class="dropdown-item" href="N64.html" data-page="n64">N64</a></li>
+              <li><a class="dropdown-item" href="GB.html" data-page="gb">Gameboy</a></li>
+              <li><a class="dropdown-item" href="Dolphin.html" data-page="wii">Gamecube/Wii</a></li>
+              <li><a class="dropdown-item" href="WiiU.html" data-page="wiiu">WiiU</a></li>
+              <li><a class="dropdown-item" href="Switch.html" data-page="switch">Switch</a></li>
+            </ul>
+          </li>
+
+          <!-- Sega -->
+          <li class="nav-item dropdown" data-menu="sega">
+            <a class="nav-link dropdown-toggle" href="#">Sega</a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+              <li><a class="dropdown-item" href="MS.html" data-page="ms">Master System</a></li>
+              <li><a class="dropdown-item" href="GEN.html" data-page="gen">Mega Drive</a></li>
+              <li><a class="dropdown-item" href="SATURN.html" data-page="saturn">Saturn</a></li>
+              <li><a class="dropdown-item" href="DC.html" data-page="dc">Dreamcast</a></li>
+            </ul>
+          </li>
+
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
