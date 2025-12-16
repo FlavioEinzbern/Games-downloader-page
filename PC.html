@@ -5,107 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My PC Games</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style> 
-    body {
-  padding-top: 50px;
-}
-    .navbar .dropdown:hover .dropdown-menu {
-      display: block;
-      margin-top: 0;
-      opacity: 1;
-    }
-
-    .dropdown-menu {
-      opacity: 0;
-      transition: opacity 0.2s ease;
-    }
-
-    .dropdown-menu-end {
-      right: 0;
-      left: auto;
-    }
-
-    .navbar .dropdown:hover .dropdown-menu-end {
-      display: block;
-      right: 0;
-      left: auto;
-    }
-  </style>
-  </style>
+<link href="css/style.css" rel="stylesheet">
+  
 </head>
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">My Games</a>
-          
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-           <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav ms-auto">
-            <!--<li class="nav-item active"><a href="PC.html" class="nav-link active" href="#">PC</a></li>-->
-            
-            <!-- Dropdown: PC -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="PC" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                PC
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
-                <li><a class="dropdown-item active" href="PC.html">Windows</a></li>
-                <li><a class="dropdown-item" href="STEAM.html">Steam Fixes</a></li>
-              </ul>
-            </li>
-
-            <!-- Dropdown: Sony -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="Sony" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Sony
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menuSony">
-                <li><a class="dropdown-item" href="PS1.html">PS1</a></li>
-                <li><a class="dropdown-item" href="PS2.html">PS2</a></li>
-                <li><a class="dropdown-item" href="PS3.html">PS3</a></li>
-                <li><a class="dropdown-item" href="PSP.html">PSP</a></li>
-              </ul>
-            </li>
-            
-            <!-- Dropdown: (left) -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="Nintendo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Nintendo
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuNintendo">
-                <li><a class="dropdown-item" href="NES.html">Nes</a></li>
-                <li><a class="dropdown-item" href="SNES.html">Snes</a></li>
-                <li><a class="dropdown-item" href="N64.html">N64</a></li>
-                <li><a class="dropdown-item" href="GB.html">Gameboy</a></li>
-                <li><a class="dropdown-item" href="Dolphin.html">Gamecube/Wii</a></li>
-                <li><a class="dropdown-item" href="WiiU.html">WiiU</a></li>
-                <li><a class="dropdown-item" href="Switch.html">Switch</a></li>
-              </ul>
-            </li>
-
-            <!-- Dropdown: (left last) -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="Sega" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Sega
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="menuSega">
-                <li><a class="dropdown-item" href="MS.html">Master System</a></li>
-                <li><a class="dropdown-item" href="GEN.html">Mega Drive</a></li>
-                <li><a class="dropdown-item" href="SATURN.html">Saturn</a></li>
-                <li><a class="dropdown-item" href="DC.html">Dreamcast</a></li>
-              </ul>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <div id="header"></div>
 
   <main class="container my-4">
     <section class="mb-5">
@@ -956,6 +861,15 @@
     <p class="mb-0">&copy; 2025 - My first frontend project</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+fetch("header.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
